@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Game = ({ value, onClickSquare }) => {
+const Square = ({ value, onClickSquare }) => {
   return (
     <button className="square" onClick={onClickSquare}>
       {value}
@@ -8,4 +8,8 @@ const Game = ({ value, onClickSquare }) => {
   );
 };
 
-export default Game;
+const board = ({xIsNext, squares, onPlay}) => {
+
+}
+
+export default Square;
