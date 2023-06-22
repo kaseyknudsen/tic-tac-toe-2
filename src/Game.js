@@ -20,6 +20,8 @@ export const Board = () => {
       nextSquares[i] = "O";
     }
     setSquares(nextSquares);
+    setXIsNext(!xIsNext);
+    console.log(xIsNext);
   };
   return (
     <>
