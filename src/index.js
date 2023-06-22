@@ -2,12 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Game from "./Game";
+import { Board } from "./Game";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <Game />
+
+    {/* <Rows /> */}
+    <Board />
   </React.StrictMode>
 );
 
