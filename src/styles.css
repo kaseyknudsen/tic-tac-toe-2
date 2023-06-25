@@ -52,10 +52,12 @@ body {
 .button {
   padding: 10%;
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 
 li {
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 
 .board-row:after {
@@ -67,6 +69,7 @@ li {
 .status {
   margin-bottom: 10px;
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 .game {
   display: flex;
